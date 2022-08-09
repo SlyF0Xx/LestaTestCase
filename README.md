@@ -3,11 +3,9 @@ Simple aircraft movement model.
 
 # Movement behaviour
 In the nutshell I assume, that aircraft always have an acceleration. In other case it will fall down.
-
 So, everytime we have a force, which change our velocity.
 
 Using this assumption, we understand that we can correct own speed by rotating to specific angle.
-
 Aircraft force will continously change out velocity to achive correct velocity.
 
 To get correct angle I use these findings:
@@ -26,7 +24,6 @@ Target_vec_norm - normalized vector to the target,
 Velocity - current velocity vector.
 
 When aircraft approaching to the target and aircraft spped is too fast, I change Target_vec_norm to the opposite to prevent misses.
-
 You can set LANDING_SPEED = LINEAR_SPEED to disable this behaviour.
 
 # Targets
