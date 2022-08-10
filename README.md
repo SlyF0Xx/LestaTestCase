@@ -1,5 +1,4 @@
-# LestaTestCase
-Simple aircraft movement model.
+# Simple aircraft movement model.
 
 # Movement behaviour
 In the nutshell I assume, that aircraft always have an acceleration. In other case it will fall down.
